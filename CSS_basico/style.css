@@ -1,0 +1,58 @@
+#externo{
+    color: grey;
+}
+
+.elementos_em_classe{
+    color: brown;
+    background-color: aliceblue;
+} 
+
+#fundo{
+    height: 100px;
+    /*Aplicando background gradiente*/
+    background: linear-gradient(#79ffbc, #9cbfff);
+}
+
+#foto_batman{
+    width: 300px;
+}
+
+#azul{
+    background-color: blue;
+    width: 600px;
+    height: 400px;
+}
+
+#vermelho{
+    background-color: red;
+    width: 50vw;
+    height: 400px;
+}
+
+.foto{
+    width: 50%;
+}
+
+.container{
+    font-size: 30px;
+}
+
+#primeira_div{
+    height: 200px;
+    border-width: 4px;
+    border-style: solid;
+    border-color: black;
+    background-color: blueviolet;
+    margin-top: 100px;
+    padding: 100px;
+}
+
+#segunda_div{
+    height: 200px;
+    background-color: blanchedalmond;
+    margin-top: 30px;
+}
+
+
+
+/*Comentário em CSS*/

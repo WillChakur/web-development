@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Css Básico</title>
+    <style>
+        h1{
+            color: blue;
+        }
+    </style>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <!--
+        Tipos de CSS:
+        Inline: Dentro da Tag
+        Interno: Dentro da tag head
+        Externo: Dentro de um style.css
+
+        O id é o mais específico então ele vai ter dominância em cima
+        das tags e classes.
+        A tag tem a menor dominância
+
+        id > classe > tag
+
+        Um elemento pode ter mais de uma classe
+    -->
+
+    <h1>Tipos de Estilo</h1>
+
+    <p style="color:red"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi ex perferendis libero repudiandae optio repellendus,
+         at quisquam cumque a, enim est itaque eligendi
+    </p>
+
+    <p id="externo">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi ex perferendis libero repudiandae optio repellendus,
+         at quisquam cumque a, enim est itaque eligendi
+    </p>
+
+    <p class="elementos_em_classe">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi ex perferendis libero repudiandae optio repellendus,
+         at quisquam cumque a, enim est itaque eligendi
+    </p>
+
+    <p class="elementos_em_classe">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi ex perferendis libero repudiandae optio repellendus,
+         at quisquam cumque a, enim est itaque eligendi
+    </p>
+
+
+    <p style="text-transform:uppercase">
+        tranformação de texto: Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quaerat fugiat, ipsum omnis voluptas sequi eius ab consequuntur consectetur perspiciatis quas vel cupiditate voluptatum mollitia? Nihil velit explicabo optio et praesentium?
+    </p>
+
+    <p style="text-decoration: underline; text-decoration-color: red;">
+        Texto decorado
+    </p>
+
+    <p style="text-decoration: line-through;">
+        Line Trought
+    </p>
+
+    <p style="text-align: right;">
+        Alinhamento de texto
+    </p>
+
+    <p style="text-indent: 30px;">
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis delectus sed dolore cum optio maxime ut rerum explicabo? Aliquid quod aperiam modi! Libero, aliquam laudantium reiciendis dolor temporibus voluptates quae.
+    </p>
+    <div id="fundo">
+
+    </div>
+</body>
+</html>
